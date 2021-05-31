@@ -1,0 +1,14 @@
+.app {
+  height: 100vh;
+
+  .sections {
+    background-color: white;
+    position: relative;
+    scrollbar-width: none;
+
+    > * {
+      width: 100vw;
+      height: 80vh;
+    }
+  }
+}

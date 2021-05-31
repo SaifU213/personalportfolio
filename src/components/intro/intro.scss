@@ -1,0 +1,47 @@
+.intro {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+
+  .left {
+    flex-basis: 100%;
+
+    .imageContainer {
+      height: 400px;
+      width: 400px;
+      display: flexbox;
+      padding: 5vh 5vw;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+      img {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .right {
+    flex-basis: 100%;
+    padding-right: 10vw;
+
+    .contact {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+
+      .icon {
+        display: flex;
+        font-size: 50px;
+        margin-top: 50px;
+        margin-right: auto;
+        background-color: midnightblue;
+        border-radius: 25%;
+      }
+    }
+  }
+}
